@@ -11,7 +11,7 @@ const computed = ref(false) // Default to false, to track when the computation i
 // Function to compute product of number1 and number2
 const computeProduct = () => {
   product.value = number1.value * number2.value // Calculate product
-  computed.value = true // Mark as computed, so button disappears
+  computed.value = true 
 }
 </script>
 
